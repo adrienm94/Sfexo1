@@ -1,0 +1,8 @@
+{% extends "exo1/base.html.twig" %}
+
+{% block color %}
+<h2>Couleur demandée :</h2>
+<p class=>{{ name }} {% if name=="red" %}(Attention virus !){% endif %}
+</p>
+<p><a href={{ path('app_index') }}>Index</a></p>
+{% endblock %}

@@ -1,0 +1,7 @@
+{% extends "exo1/base.html.twig" %}
+
+{% block date %}
+<h2>Date actuelle :</h2>
+<p>{{ "now"|date("d/m/Y H:i:s")}}</p>
+<p><a href={{ path('app_index') }}>Index</a></p>
+{% endblock %}
